@@ -1,0 +1,15 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "Discord bot to automate message for Marketwatch articles.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joshua Eworo",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "puppeteer": "^5.4.1"
+  }
+}
