@@ -10,7 +10,7 @@ const prefix = '!';
 
 client.once('ready', async ()=> {
 
-    var testChannel = client.channels.cache.get('775923254782197780'); // gets a specific discord channel
+    var testChannel = client.channels.cache.get('781953236973912085'); // gets a specific discord channel //775923254782197780
     console.log('MarkyBot is online!');
 
     let oldLink = await scrapeArticle();
