@@ -62,7 +62,7 @@ client.once('ready', async ()=> {
 
 //Webscraper function
 async function scrapeArticle () {
-    const browser = await puppeteer.launch(); //{headless: false}
+    const browser = await puppeteer.launch({ args: ['--no-sandbox'] }); //{headless: false}
 
     const page = await browser.newPage();
     await page.goto('https://www.marketwatch.com/latest-news', {waitUntil: 'domcontentloaded'} );
